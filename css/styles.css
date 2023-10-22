@@ -43,6 +43,21 @@
     color: yellowgreen;
     cursor: pointer;
 }
+.active{
+    color:#404BBF;
+}
+.active::after {
+    content: " ";
+    display: block;
+    width: 100%;
+    height: 4px;
+    border-radius: 2px;
+    background-color: #404BBF;
+    position: relative;
+    top: 26px;
+
+
+} 
 .link-items {
     padding-inline-start: 0px;
     margin: 0;
