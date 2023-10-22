@@ -55,9 +55,7 @@
     background-color: #404BBF;
     position: relative;
     top: 26px;
-
-
-} 
+}
 .link-items {
     padding-inline-start: 0px;
     margin: 0;
@@ -71,7 +69,7 @@
 }
 .link-items .links:hover,
 .link-items .links:focus {
-    color: orange;
+    color: #404BBF;
 }
 .link-items .links:active {
     color: red;
@@ -96,7 +94,7 @@
 }
 .contacts .links:hover,
 .contacts .links:focus {
-    color: orange;
+    color: #404BBF;
 }
 .contacts .links:active {
     color: red;
