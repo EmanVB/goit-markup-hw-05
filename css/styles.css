@@ -376,11 +376,39 @@ footer .footer-link:active{
 .project-list li img{
     border: 1px solid #E7E9FC;
 }
-.project-list li div{
+.project-card{
+    width: 360px;
+    height: 300px;
+    overflow: hidden;
+    position: relative;
+}
+.project:hover,
+.project:active {
+    box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+}
+.project-caption{
+    width: 360px;
+    height: 300px;
+    position: absolute;
+    background: rgba(77, 90, 229, 0.7);
+    border: 1px solid #4D5AE5;
+    color: white;
+    top: 0;
+    left: 0;
+    display: block;
+    opacity: 0;
+    transform: translateY(100%);
+    transition: transform 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+}
+.project-desc {
     padding-left: 16px;
     padding-right: 16px;
 }
-.project-list li:hover,
-.project-list li:active {
-    box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+.project:hover .project-caption,
+.project:active .project-caption{
+    opacity: 1;
+    transform: translateY(0%);
+}
+.project-caption p {
+    padding: 40px 32px;
 }
