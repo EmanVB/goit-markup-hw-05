@@ -43,7 +43,7 @@
     color: yellowgreen;
     cursor: pointer;
 }
-.active{
+.active:active{
     color:#404BBF;
 }
 .active::after {
@@ -72,8 +72,8 @@
 .link-items .links:focus {
     color: #404BBF;
 }
-.link-items .links:active {
-    color: red;
+.links:active {
+    color: #404BBF;   
 }
 .links {
     color: var(--default-color);
