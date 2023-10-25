@@ -443,8 +443,6 @@ footer .footer-link:active{
     padding-right: 16px;
     padding-top: 32px;
     padding-bottom: 32px;
-    display: flex;
-    flex-direction: column;
 }
 .project:hover .project-caption,
 .project:active .project-caption{
